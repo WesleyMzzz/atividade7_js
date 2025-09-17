@@ -24,3 +24,8 @@ if ((idade >= 18 && cartao == true) || responsavel == true) {
 console.log(mensagem);
 
 // Atividade 3
+
+let nota = 7.0
+let resultado = (nota >= 6) ? "Aprovado" : "Reprovado";
+
+console.log(resultado);
