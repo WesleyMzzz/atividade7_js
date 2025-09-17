@@ -11,5 +11,16 @@ console.log("Preço em Euro: "+(euro/real).toLocaleString('de-DE', { style: 'cur
 
 // Atividade 2
 
+let idade = 19;
+let cartao = false;
+let responsavel = false;
+
+if ((idade >= 18 && cartao == true) || responsavel == true) {
+     mensagem = "Você pode entrar!";
+} else {
+     mensagem = "Você não pode entrar";
+}
+
+console.log(mensagem);
 
 // Atividade 3
